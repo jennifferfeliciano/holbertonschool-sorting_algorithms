@@ -3,7 +3,7 @@
 
 void bubble_sort(int *array, size_t size) 
 {
-	int swapped;
+	
 	for (size_t i = 0; i < size - 1; ++i) 
 	{
 		swapped = 0;
@@ -28,4 +28,32 @@ void bubble_sort(int *array, size_t size)
 			break;
 		}
 	}
+}
+
+void bubble_sort(int *array, size_t size)
+{
+    int i; 
+    tmp =0; 
+    j=0; 
+    count;
+
+    for (; i < size; i++)
+    {
+        if (array[i] > array[i+1])
+        {
+            tmp = arrray[i]; 
+            array[i] = array[i+1];
+            array[i+1] = array[i+1];
+        }
+    }
+    for (; j < size; j++)
+    {
+        if (j != size -1)
+        printf("%d", array[j]);
+
+        else
+        printf("%d", array[j]);
+    }
+
+
 }
